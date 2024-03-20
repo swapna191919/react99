@@ -6,7 +6,9 @@ import ImageComponent from './components/image';
 import UnorderedList from './components/ullist';
 import JsxFunctional from './components/jsxfunctional';
 import JsxClass from './components/jsx';
-
+import ComponentA,{ComponentB,ComponentC} from './components/import/export/export'; 
+import ConditionalRender from './components/conditional-render';
+import { NC } from './components/conditional-render';
 function App() {
   return (
     <div>
@@ -18,6 +20,11 @@ function App() {
 
       <JsxFunctional></JsxFunctional>
       <JsxClass></JsxClass>
+      <ComponentA/>
+      <ComponentB/>
+      <ComponentC/>
+      <ConditionalRender/>
+      <NC/>
 
       </div>
   );
