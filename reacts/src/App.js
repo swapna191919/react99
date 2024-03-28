@@ -9,30 +9,61 @@ import './App.css';
 // import ComponentA,{ComponentB,ComponentC} from './components/import/export/export'; 
 // import ConditionalRender from './components/conditional-render';
 // import { NC } from './components/conditional-render';
-import TodoList from './components/styles';
-import contentPage from './components/styles/bootstrap';
+// import TodoList from './components/styles';
+// import contentPage from './components/styles/bootstrap';
+// import { Card } from './components/styles/card';
+//  import IC from './components/image'
+// import { MS } from './components/moviecon';
+import { Movies } from './components/moviecon';
+import { Image } from './components/moviejpg';
 function App() {
   return (
-    <div>
-      <h1> swapna jikkula</h1>      
+    <div className="div1">
+{/* //       <h1> swapna jikkula</h1>       */}
       {/* <ButtonComponent/>
        <ImageComponent/> 
         <UnorderedList />
+   
     
 
       <JsxFunctional></JsxFunctional>
       <JsxClass></JsxClass>
       <ComponentA/>
-      <ComponentB/>
+      <ComponentB/>S
       <ComponentC/>
       <ConditionalRender/>
       <NC/>  */}
-      <TodoList/>
-      <contentPage/>
+      {/* // <TodoList/>
+      // <contentPage/>
+      // <Card/> */}
+     
+     
+      <Movies/>
+      <div class="im">
+        <center>
+      <Image/>
+      </center>
+      
+    
+    
+      
+       
+      
+    
+
+     
       
 
       
 
+
+
+
+      
+
+
+      
+</div>
 
       
 

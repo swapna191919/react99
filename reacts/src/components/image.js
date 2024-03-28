@@ -1,11 +1,12 @@
 // import swapna from "../image/image.jpg"
-const ImageComponent=()=>{
+const IC=()=>{
     return(
-        <>
-       <img src={require('./image.jpg')} alt="logo" width={100}/>
-        </>
+        <div class="im">
+       <img src={require('./image.jpg')} alt="logo" width={200}/>
+
+        </div>
         
     )
 }
 
-export default ImageComponent
+export default IC
