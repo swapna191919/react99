@@ -15,10 +15,10 @@ import './App.css';
 //  import IC from './components/image'
 // import { MS } from './components/moviecon';
 import { Movies } from './components/moviecon';
-import { Image } from './components/moviejpg';
+// import { Image } from './components/moviejpg';
 function App() {
   return (
-    <div className="div1">
+    <div >
 {/* //       <h1> swapna jikkula</h1>       */}
       {/* <ButtonComponent/>
        <ImageComponent/> 
@@ -39,20 +39,18 @@ function App() {
      
      
       <Movies/>
-      <div class="im">
-        <center>
+      {/* <div class="im"> */}
+      {/* <Image/>
+      
+      <IC/> 
       <Image/>
-      </center>
       
-    
-    
-      
-       
-      
+      <IC/> 
+      <Image/>
     
 
      
-      
+      <IC/>  */}
 
       
 
@@ -63,7 +61,7 @@ function App() {
 
 
       
-</div>
+{/* </div> */}
 
       
 

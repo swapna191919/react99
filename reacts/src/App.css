@@ -37,7 +37,7 @@
   }
 }
 
-.div1{
+/* .div1{
   width:900px;
   height: 400px;
   background-color: red;
@@ -51,4 +51,23 @@
   justify-content: center;
  
   
+} */
+
+body{
+  background-image: url("./components/netflix.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1{
+  font-weight: 900;
+}
+button{
+  width:100px;
+  height:30px;
+  font-size: large;
+}
+.head1{
+  position: relative;
+  top:200px;
 }
